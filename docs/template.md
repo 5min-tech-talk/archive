@@ -1,9 +1,10 @@
 # [Weekly 5-Min Tech Talk] Template
 
-| **Presenter** | Your Name |
-|---|---|
-| **Date** | YYYY-MM-DD |
-| **Keywords** | Key points summarizing the topic |
+<table>
+  <tbody><tr><td><b>Presenter</b></td><td>Your Name</td></tr></tbody>
+  <tbody><tr><td><b>Date</b></td><td>YYYY-MM-DD</td></tr></tbody>
+  <tbody><tr><td><b>Keywords</b></td><td>Key points summarizing the topic</td></tr></tbody>
+</table>
 
 ---
 
