@@ -15,7 +15,6 @@ Please use the [provided template](./docs/template.md).
 |  |  |  |  |  |
 |  |  |  |  |  |
 |  |  |  |  |  |
-|  |  | (Upcoming Session) |  |  |
 
 ---
 
