@@ -2,6 +2,7 @@
 
 | | |
 | **Presenter** | [Your Name] |
+| :--- | :--- |
 | **Date** | YYYY-MM-DD |
 | **Keywords** | [Key points summarizing the topic] |
 
