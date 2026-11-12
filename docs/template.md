@@ -1,7 +1,8 @@
 # [Weekly 5-Min Tech Talk] Template
 
+| Category | Details |
+|---|---|
 | **Presenter** | [Your Name] |
-| :--- | :--- |
 | **Date** | YYYY-MM-DD |
 | **Keywords** | [Key points summarizing the topic] |
 
