@@ -1,6 +1,5 @@
 # [Weekly 5-Min Tech Talk] Template
 
-| | |
 | **Presenter** | [Your Name] |
 | :--- | :--- |
 | **Date** | YYYY-MM-DD |
