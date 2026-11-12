@@ -1,7 +1,6 @@
 # [Weekly 5-Min Tech Talk] Template
 
 | | |
-|---|---|
 | **Presenter** | [Your Name] |
 | **Date** | YYYY-MM-DD |
 | **Keywords** | [Key points summarizing the topic] |
@@ -9,7 +8,7 @@
 ---
 
 ## 1. TL;DR
-> Summarize the key idea and conclusion of your talk in 2–3 lines.
+- Summarize the key idea and conclusion of your talk in 2–3 lines.
 
 ## 2. Problem & Background
 - What technical problem or limitation did you run into?
