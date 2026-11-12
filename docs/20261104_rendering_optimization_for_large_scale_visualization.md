@@ -22,7 +22,7 @@ Applied a simple rendering philosophy in practice: "Don't draw what isn't visibl
 - Quadtree: Skipping rendering through spatial partitioning
     - Introduced a tree structure that recursively divides the entire screen into four quadrants.
     - Regions that don't intersect the user's current viewport are culled from the rendering tree entirely, minimizing unnecessary computation.
-    ![quadtree visualization](./assets/20261104_quadtree.jpeg)
+    ![quadtree visualization](../assets/20261104_quadtree.jpeg)
         
 - A 4-layer rendering pipeline to sustain 60 FPS (with LOD)
     - Designed a 4-layer architecture from initial JSON data to on-screen rendering, preserving data integrity and maintaining 60 FPS during user interaction.
@@ -35,7 +35,7 @@ Applied a simple rendering philosophy in practice: "Don't draw what isn't visibl
     3. **Adaptive Layer:**
         - Performs Quadtree-based viewport culling on every user event.
         - Evaluates the density of visible data and selects the final key data to render within each grid cell (weight-based LOD).
-        ![LOD comparison](./assets/20261104_LOD_comparison.png)
+        ![LOD comparison](../assets/20261104_LOD_comparison.png)
         
     4. **GPU Rendering Layer:**
         - Processes the final filtered data in parallel using custom WebGL 2.0 shaders.
