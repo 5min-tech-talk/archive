@@ -12,10 +12,10 @@ Please use the [provided template](./docs/template.md).
 | Round | Date | Presenter | Topic | Summary Doc | Additional Materials |
 | :---: | :---: | :---: | :--- | :---: | :---: |
 | 1 | 2026-11-04 | Sujee Cho | Rendering Optimization for Large-Scale Visualization Data | [docs](./docs/20261104_rendering_optimization_for_large_scale_visualization.md) | - |
+| 1 | - | - | - | - | - |
 | 2 | - | - | - | - | - |
-| 3 | - | - | - | - | - |
-| 4 | - | - | - | - | - |
-| 5 | - | - | (Upcoming Session) | - | - |
+| 2 | - | - | - | - | - |
+| 3 | - | - | (Upcoming Session) | - | - |
 
 ---
 
