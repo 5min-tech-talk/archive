@@ -15,6 +15,8 @@ Please use the [provided template](./docs/template.md).
 |  |  |  |  |  |
 | 2026-11-12 | Sujee Cho | Handling Time in Global Services | [🔗](./docs/20261112_handling_time_in_global_services.md) | - |
 |  |  |  |  |  |
+| 2026-11-20 | Sujee Cho | Multilingual OTA & White-Labeling Architecture in Global Services | [🔗](./docs/20261120_multilingual_ota_white_labeling_architecture_in_global_services.md) | - |
+|  |  |  |  |  |
 
 ---
 
