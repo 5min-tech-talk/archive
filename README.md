@@ -5,6 +5,7 @@ A dedicated space for weekly 5-minute technical insights and knowledge sharing b
 ## 📝 Document Template
 
 Please use the [provided template](./docs/template.md).
+For learning-note style talks, see the [learning note template](./docs/template_learning.md).
 
 ---
 ## 📚 Seminar Index
@@ -12,6 +13,8 @@ Please use the [provided template](./docs/template.md).
 | Date | Presenter | Topic | Summary Doc | Additional Materials |
 | :---: | :---: | :--- | :---: | :---: |
 | 2026-11-04 | Sujee Cho | Rendering Optimization for Large-Scale Visualization Data | [🔗](./docs/20261104_rendering_optimization_for_large_scale_visualization.md) | - |
+|  |  |  |  |  |
+| 2026-11-04 | Olivia Lee | Web Deployment Part 1: How My Code Reaches an https:// URL | [🔗](./docs/20261104_web_deployment_part1_from_code_to_url.md) | - |
 |  |  |  |  |  |
 | 2026-11-12 | Sujee Cho | Handling Time in Global Services | [🔗](./docs/20261112_handling_time_in_global_services.md) | - |
 |  |  |  |  |  |
