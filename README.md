@@ -18,6 +18,8 @@ For learning-note style talks, see the [learning note template](./docs/template_
 |  |  |  |  |  |
 | 2026-11-12 | Sujee Cho | Handling Time in Global Services | [🔗](./docs/20261112_handling_time_in_global_services.md) | - |
 |  |  |  |  |  |
+| 2026-11-12 | Olivia Lee | Web Deployment Part 2: Safer Requests, Automated Deploys | [🔗](./docs/20261112_web_deployment_part2_cloudflare_tunnel_and_cicd.md) | - |
+|  |  |  |  |  |
 | 2026-11-20 | Sujee Cho | Multilingual OTA & White-Labeling Architecture in Global Services | [🔗](./docs/20261120_multilingual_ota_white_labeling_architecture_in_global_services.md) | - |
 |  |  |  |  |  |
 
