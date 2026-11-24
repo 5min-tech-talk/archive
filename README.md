@@ -13,17 +13,12 @@ For learning-note style talks, see the [learning note template](./docs/template_
 | Date | Presenter | Topic | Summary Doc | Additional Materials |
 | :---: | :---: | :--- | :---: | :---: |
 | 2026-11-04 | Sujee Cho | Rendering Optimization for Large-Scale Visualization Data | [🔗](./docs/20261104_rendering_optimization_for_large_scale_visualization.md) | - |
-|  |  |  |  |  |
 | 2026-11-04 | Olivia Lee | Web Deployment Part 1: How My Code Reaches an https:// URL | [🔗](./docs/20261104_web_deployment_part1_from_code_to_url.md) | - |
-|  |  |  |  |  |
 | 2026-11-12 | Sujee Cho | Handling Time in Global Services | [🔗](./docs/20261112_handling_time_in_global_services.md) | - |
-|  |  |  |  |  |
 | 2026-11-12 | Olivia Lee | Web Deployment Part 2: Safer Requests, Automated Deploys | [🔗](./docs/20261112_web_deployment_part2_cloudflare_tunnel_and_cicd.md) | - |
-|  |  |  |  |  |
 | 2026-11-20 | Sujee Cho | Multilingual OTA & White-Labeling Architecture in Global Services | [🔗](./docs/20261120_multilingual_ota_white_labeling_architecture_in_global_services.md) | - |
-|  |  |  |  |  |
 | 2026-11-25 | Olivia Lee | Inside the Server: Ports, localhost, and Redis | [🔗](./docs/20261125_inside_the_server_ports_localhost_redis.md) | - |
-|  |  |  |  |  |
+| 2026-11-25 | Sujee Cho | Dissecting Python `dict` & The Two Faces of Hash | [🔗](./docs/20261125_dissecting_python_dict_the_two_faces_of_hash.md) | [example1](./examples/20261125_01_realworld_hash_demo.py), [example2](./examples/20261125_02_mini_hash_table.py) |
 
 ---
 

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410" width="800" height="410" font-family="-apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, Roboto, sans-serif">
+  <rect width="800" height="410" fill="#ffffff" />
+
+  
+  <text x="400" y="34" text-anchor="middle" font-size="18" font-weight="700" fill="#1e293b">Python 3.6+ Compact Dict: Memory Savings &amp; Insertion Order</text>
+  <text x="400" y="55" text-anchor="middle" font-size="12.5" fill="#64748b">Insertion order: 1st ("apple": 1000) -&gt; hash index [5],  2nd ("banana": 2000) -&gt; hash index [1]</text>
+
+  
+  <rect x="28" y="74" width="336" height="312" rx="10" fill="#f8fafc" stroke="#cbd5e1" stroke-width="1.5" />
+  <text x="196" y="102" text-anchor="middle" font-size="14" font-weight="700" fill="#475569">Python &lt;= 3.5 (Single Sparse Table)</text>
+
+  
+  <rect x="52" y="118" width="288" height="28" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
+  <text x="66" y="136" font-size="11.5" fill="#94a3b8">[0]  Empty (24 bytes wasted)</text>
+
+  <rect x="52" y="150" width="288" height="28" rx="4" fill="#fef3c7" stroke="#f59e0b" />
+  <text x="66" y="168" font-size="11.5" font-weight="600" fill="#92400e">[1]  (hash_b, "banana", 2000)  ← 2nd</text>
+
+  <rect x="52" y="182" width="288" height="28" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
+  <text x="66" y="200" font-size="11.5" fill="#94a3b8">[2]  Empty (24 bytes wasted)</text>
+
+  <rect x="52" y="214" width="288" height="28" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
+  <text x="66" y="232" font-size="11.5" fill="#94a3b8">[3]  Empty (24 bytes wasted)</text>
+
+  <rect x="52" y="246" width="288" height="28" rx="4" fill="#f1f5f9" stroke="#cbd5e1" />
+  <text x="66" y="264" font-size="11.5" fill="#94a3b8">[4]  Empty (24 bytes wasted)</text>
+
+  <rect x="52" y="278" width="288" height="28" rx="4" fill="#dbeafe" stroke="#3b82f6" />
+  <text x="66" y="296" font-size="11.5" font-weight="600" fill="#1e40af">[5]  (hash_a, "apple", 1000)   ← 1st</text>
+
+  <text x="196" y="336" text-anchor="middle" font-size="11.5" font-weight="600" fill="#dc2626">• Large empty slots waste 24B each</text>
+  <text x="196" y="356" text-anchor="middle" font-size="11.5" font-weight="600" fill="#dc2626">• Iteration order broken ("banana" first)</text>
+
+  
+  <rect x="384" y="74" width="388" height="312" rx="10" fill="#f0f9ff" stroke="#7dd3fc" stroke-width="1.5" />
+  <text x="578" y="102" text-anchor="middle" font-size="14" font-weight="700" fill="#0369a1">Python 3.6+ (Compact Dict: 2 Arrays)</text>
+
+  
+  <text x="446" y="126" text-anchor="middle" font-size="12" font-weight="700" fill="#334155">1) indices (1B each)</text>
+  <rect x="404" y="136" width="84" height="25" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="446" y="153" text-anchor="middle" font-size="11" fill="#94a3b8">[0]: None</text>
+
+  <rect x="404" y="165" width="84" height="25" rx="4" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="446" y="182" text-anchor="middle" font-size="11.5" font-weight="700" fill="#92400e">[1]: 1</text>
+
+  <rect x="404" y="194" width="84" height="25" rx="4" fill="#ffffff" stroke="#cbd5e1" />
+  <text x="446" y="211" text-anchor="middle" font-size="11" fill="#94a3b8">[2..4]: None</text>
+
+  <rect x="404" y="223" width="84" height="25" rx="4" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5" />
+  <text x="446" y="240" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e40af">[5]: 0</text>
+
+  
+  <text x="646" y="126" text-anchor="middle" font-size="12" font-weight="700" fill="#334155">2) entries (Dense, Ordered)</text>
+  <rect x="536" y="144" width="220" height="36" rx="5" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5" />
+  <text x="646" y="160" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e3a8a">[0] (hash_a, "apple", 1000)</text>
+  <text x="646" y="174" text-anchor="middle" font-size="10" fill="#2563eb">1st inserted</text>
+
+  <rect x="536" y="192" width="220" height="36" rx="5" fill="#fef3c7" stroke="#f59e0b" stroke-width="1.5" />
+  <text x="646" y="208" text-anchor="middle" font-size="11.5" font-weight="700" fill="#78350f">[1] (hash_b, "banana", 2000)</text>
+  <text x="646" y="222" text-anchor="middle" font-size="10" fill="#b45309">2nd inserted</text>
+
+  
+  <path d="M 488 235 C 512 235, 512 162, 532 162" fill="none" stroke="#2563eb" stroke-width="1.8" />
+  <polygon points="536,162 528,158 528,166" fill="#2563eb" />
+
+  <path d="M 488 178 C 510 178, 510 210, 532 210" fill="none" stroke="#f59e0b" stroke-width="1.8" />
+  <polygon points="536,210 528,206 528,214" fill="#f59e0b" />
+
+  
+  <rect x="404" y="272" width="352" height="94" rx="7" fill="#ffffff" stroke="#bae6fd" />
+  <text x="580" y="296" text-anchor="middle" font-size="12" font-weight="700" fill="#0369a1">Key Advantages</text>
+  <text x="580" y="318" text-anchor="middle" font-size="11.5" fill="#1e293b">• Saves 20–25% memory (empty slots are 1B integers)</text>
+  <text x="580" y="338" text-anchor="middle" font-size="11.5" fill="#1e293b">• Iteration scans entries[0..N] sequentially</text>
+  <text x="580" y="356" text-anchor="middle" font-size="11.5" font-weight="600" fill="#15803d">• Guarantees exact insertion order automatically</text>
+</svg>
