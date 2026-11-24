@@ -18,7 +18,7 @@
 
 ---
 
-## 1. TL;DR (Core Summary)
+## 1. TL;DR
 
 * Python's `dict` and `set` are built on **Hash Tables**, enabling average $O(1)$ lookup, insertion, and deletion even as datasets scale to millions of records.
 * Python `dict` resolves key collisions by probing for other empty slots in the array (**Open Addressing**), leaves a `<Deleted>` marker (**Dummy / Tombstone**) upon deletion so subsequent colliding items are not lost, and splits storage into an index array and a dense data array (**Compact Dict**, Python 3.6+) to save memory while preserving insertion order.
@@ -41,7 +41,7 @@ When engineers rely on built-in data structures and hash functions without under
 
 ---
 
-## 3. Solution Architecture
+## 3. Solution & Architecture
 
 ### 3.1 Why Hash Tables Achieve $O(1)$ Lookup
 
