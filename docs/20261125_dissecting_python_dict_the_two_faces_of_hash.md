@@ -139,16 +139,7 @@ In 2011, attackers exploited deterministic hash functions by sending HTTP payloa
 
 ---
 
-## 5. Examples
-
-Runnable scripts are available in the `examples/` directory:
-
-* [`examples/01_realworld_hash_demo.py`](../examples/01_realworld_hash_demo.py): Benchmarks 50,000-log blacklist filtering (`list` vs. `set`) and demonstrates cache-key breakage across Python restarts (`hash()` vs. `SHA-256`).
-* [`examples/02_mini_hash_table.py`](../examples/02_mini_hash_table.py): A ~50-line educational hash table implementing Open Addressing, `DUMMY` tombstones, and 2/3 load-factor resizing.
-
----
-
-## 6. Glossary & FAQ
+## 5. Glossary & FAQ
 
 ### Glossary
 
@@ -173,7 +164,7 @@ Runnable scripts are available in the `examples/` directory:
 
 ---
 
-## 7. References
+## 6. References
 
 * [PEP 468 – Preserving the order of `**kwargs` in a function (Compact Dict motivation)](https://peps.python.org/pep-0468/)
 * [PEP 456 – Secure and interchangeable hash algorithm (SipHash & Hash DoS defense)](https://peps.python.org/pep-0456/)
